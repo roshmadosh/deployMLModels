@@ -1,10 +1,12 @@
 #!/bin/bash
 
 #####
-# A simple example of how a Python script can be used as part of a data pipeline.
+# An example of using a Python script as a reusable component. Here it's used as
+# part of a data pipeline where it takes input from one file and writes the output
+# to another file.
 #
-# To use, open a terminal from the LVL2 directory and run
-#       ./process_script < inputs.txt > outputs.txt
+# Open a terminal from the LVL2 directory and run
+#       ./process_script < {space-delimited input file} > {output file}
 #####
 
 while IFS=$'\n' read -r class gender age; do
