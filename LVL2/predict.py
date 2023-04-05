@@ -23,7 +23,7 @@ map_class = {
 }
 def predict(input):
     # read data and drop Nans
-    df = pd.read_csv("../train.csv")
+    df = pd.read_csv("../LVL1/train.csv")
     df = df.dropna()
 
     # maps "Female" to 0, "Male" to 1
