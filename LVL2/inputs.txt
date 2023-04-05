@@ -1,0 +1,5 @@
+upper male 45
+middle female 22
+upper female 14
+lower male 56
+lower female 11
