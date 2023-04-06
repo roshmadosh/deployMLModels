@@ -1,6 +1,6 @@
 # Deploying a Machine Learning Model through a REST API  
 
-[Link](https://tinyurl.com/upphy888) to slides.  
+[Link](https://tinyurl.com/2p8pfkpa) to slides.  
 
 ### Requirements
 - Python 3
